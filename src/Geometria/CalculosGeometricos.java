@@ -101,9 +101,9 @@ public class CalculosGeometricos {
 		Scanner scanner = new Scanner (System.in);
 		try {
 			System.out.println("Por favor ingrese el valor del diametro del circulo: ");
-			double radio = scanner.nextDouble();
+			double diametro = scanner.nextDouble();
 		
-			Circulo circulo = new Circulo(radio);
+			Circulo circulo = new Circulo(diametro);
 			double area = circulo.calcularArea();
 			System.out.printf("El area del circulo es %f %n%n", area);
 		} catch (InputMismatchException excepcion) {
