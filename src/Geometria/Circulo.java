@@ -2,12 +2,14 @@ package Geometria;
 
 public class Circulo {
 
-	//ATRIBUTOS (CONSTANTES)
+	//ATRIBUTOS 
 	private double diametro;
 	
 	//CONSTRUCTORES
 	public Circulo() {
 	}
+	
+	
 
 	public Circulo(double diametro) {
 		this.diametro = diametro;
